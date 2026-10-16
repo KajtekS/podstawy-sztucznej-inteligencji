@@ -243,6 +243,11 @@ dependencies = [
     { name = "transformers" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipykernel" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "accelerate" },
@@ -272,6 +277,9 @@ requires-dist = [
     { name = "torchvision" },
     { name = "transformers", specifier = ">=4.46,<5" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipykernel", specifier = ">=7.3.0" }]
 
 [[package]]
 name = "beautifulsoup4"
