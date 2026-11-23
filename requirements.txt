@@ -144,6 +144,7 @@ huggingface-hub==0.36.2
     #   datasets
     #   evaluate
     #   peft
+    #   sentence-transformers
     #   tokenizers
     #   transformers
 identify==2.6.20
@@ -343,6 +344,7 @@ numpy==2.5.3
     #   scikit-learn
     #   scikit-surprise
     #   scipy
+    #   sentence-transformers
     #   statsmodels
     #   tensorboard
     #   torchvision
@@ -566,6 +568,7 @@ scikit-learn==1.9.1
     # via
     #   basics-of-ai-agh
     #   feature-engine
+    #   sentence-transformers
 scikit-surprise==1.1.5
     # via basics-of-ai-agh
 scipy==1.18.1
@@ -576,9 +579,12 @@ scipy==1.18.1
     #   lightgbm
     #   scikit-learn
     #   scikit-surprise
+    #   sentence-transformers
     #   statsmodels
 send2trash==2.1.0
     # via jupyter-server
+sentence-transformers==5.7.0
+    # via basics-of-ai-agh
 sentencepiece==0.2.2
     # via basics-of-ai-agh
 setuptools==84.0.0
@@ -616,12 +622,15 @@ threadpoolctl==3.7.0
 tinycss2==1.5.1
     # via bleach
 tokenizers==0.22.2
-    # via transformers
+    # via
+    #   sentence-transformers
+    #   transformers
 torch==2.14.0
     # via
     #   accelerate
     #   basics-of-ai-agh
     #   peft
+    #   sentence-transformers
     #   torchvision
 torchvision==0.29.0
     # via basics-of-ai-agh
@@ -641,6 +650,7 @@ tqdm==4.70.1
     #   optuna
     #   peft
     #   sacremoses
+    #   sentence-transformers
     #   transformers
 traitlets==5.16.1
     # via
@@ -662,6 +672,7 @@ transformers==4.57.6
     # via
     #   basics-of-ai-agh
     #   peft
+    #   sentence-transformers
 triton==3.8.0 ; sys_platform == 'linux'
     # via torch
 typing-extensions==4.16.0
@@ -679,6 +690,7 @@ typing-extensions==4.16.0
     #   onnx-ir
     #   onnxscript
     #   referencing
+    #   sentence-transformers
     #   sqlalchemy
     #   torch
 tzdata==2026.4

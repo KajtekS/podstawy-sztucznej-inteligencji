@@ -35,6 +35,7 @@ dependencies = [
     "peft",
     "protobuf",
     "sacremoses",  # HerBERT tokenizer
+    "sentence-transformers>=5",
     "sentencepiece",  # plT5 tokenizer
     "tensorboard",
     "transformers>=4.46,<5",  # 5.0 removed arguments used in lab 5
@@ -52,7 +53,6 @@ extend-exclude = [
     # solution fragments, using variables defined in the main notebooks
     "lab*/*_solution.ipynb",
     "lab*/*_solutions.ipynb",
-    "lab5/solutions.py",
 ]
 
 [tool.ruff.lint]
